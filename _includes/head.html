@@ -7,7 +7,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/images/{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}images/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
 <meta property="og:site_name" content="Tavrox's blog">
 <meta property="article:publisher" content="http://www.facebook.com/yannick.elahee" />
 <meta property="article:author" content="https://www.facebook.com/yannick.elahee" />
@@ -20,7 +20,7 @@
 <meta name="twitter:site" content="@tavrox_" />
 <meta name="twitter:creator" content="@tavrox_">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+<meta name="twitter:image" content="{{ site.url }}images/{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
   
 <style>
           {% capture include_to_scssify %}
