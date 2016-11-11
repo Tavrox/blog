@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Documentation
+title: "Documentation"
 image: image-2.png 
 description: This a description test!
 ---
 
+This process will host the theme as a **Project Page**. You can also download the files for local development. 
 
 # Installation: 
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
