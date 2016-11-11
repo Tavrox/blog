@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Documentation
-image: images/test.png
+image: images/image-2.png
 ---
 
 
