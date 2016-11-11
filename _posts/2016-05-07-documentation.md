@@ -6,14 +6,10 @@ image: image-2.png
 description: This a description test!
 ---
 
-[comment]: <> (This is a comment, it will not be included)
-[comment]: <> (in  the output file unless you use it in)
-[comment]: <> (a reference style link.)
-
-
 <!---
-your comment goes here
-and here
+title: test
+image: image-2.png (without image folder)
+description:test
 -->
 
 # Installation: 
