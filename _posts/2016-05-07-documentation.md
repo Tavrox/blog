@@ -1,8 +1,3 @@
-# HEADERS FOR SEO 
-# image (without folder name)
-# tags
-# title
-
 ---
 layout: post
 title: Documentation
