@@ -1,3 +1,7 @@
+[comment]: <> (This is a comment, it will not be included)
+[comment]: <> (in  the output file unless you use it in)
+[comment]: <> (a reference style link.)
+
 ---
 layout: post
 title: Documentation
@@ -5,6 +9,11 @@ image: image-2.png
 description: This a description test!
 ---
 
+
+<!---
+your comment goes here
+and here
+-->
 
 # Installation: 
 Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
