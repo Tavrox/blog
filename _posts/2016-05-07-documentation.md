@@ -1,7 +1,12 @@
+# HEADERS FOR SEO 
+# image (without folder name)
+# tags
+# title
+
 ---
 layout: post
 title: Documentation
-image: images/image-2.png
+image: image-2.png 
 ---
 
 
