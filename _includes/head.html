@@ -11,8 +11,14 @@
           {% endcapture %}
           {{ include_to_scssify | scssify }}
 </style>  
+    
+{% if page.summary %}
+<meta name="description" content="{{ page.summary | escape }}">
+{% endif %}
+{%if page.tags %}
+<meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
+{%endif %}
 
 <link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">  
-    {{page.matos}}
 </head>
