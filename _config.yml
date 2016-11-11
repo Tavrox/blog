@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Webjeda cards
-email: your-email@domain.com
+title: Yannick Elahee
+email: elahee.yannick@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+  Tavrox, game marketing specialist.
   
   
   
-baseurl: "/cards" # the subpath of your site, e.g. /blog
-url: "http://webjeda.com" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://tavrox.github.io/blog/" # the base hostname & protocol for your site
 
 #sidebar
 default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
@@ -45,8 +45,8 @@ github: http://github.com/webjeda
 
 #facebook like box
 fb-app-id: 549480635219583
-fb-page-url: https://www.facebook.com/webjeda/
-fb-page-title: webjeda
+fb-page-url: https://www.facebook.com/elahee.yannick/
+fb-page-title: Tavrox
 
 # Sass style
 sass:
