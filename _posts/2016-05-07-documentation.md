@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Documentation"
-image: image-2.png 
+image: pennsy.gif
 description: This a description test!
 ---
 
